@@ -1,10 +1,4 @@
-.vs/*
-.vscode/*
-frontend/bin/*
-frontend/obj/*
-backend/bin/*
-backend/obj/*
-shared/bin/*
-shared/obj/*
-tests/ClientApp.Tests/bin/*
-tests/ClientApp.Tests/obj/*
+.vs/
+.vscode/
+bin/
+obj/
