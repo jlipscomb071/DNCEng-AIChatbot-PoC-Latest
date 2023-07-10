@@ -1,0 +1,293 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\t-jelipscomb\\CSharp-AIChatBot-DNCEng\\frontend\\ClientApp.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\t-jelipscomb\\CSharp-AIChatBot-DNCEng\\frontend\\ClientApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\t-jelipscomb\\CSharp-AIChatBot-DNCEng\\frontend\\ClientApp.csproj",
+        "projectName": "ClientApp",
+        "projectPath": "c:\\Users\\t-jelipscomb\\CSharp-AIChatBot-DNCEng\\frontend\\ClientApp.csproj",
+        "packagesPath": "C:\\Users\\t-jelipscomb\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\t-jelipscomb\\CSharp-AIChatBot-DNCEng\\frontend\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "CentralPackageTransitivePinningEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\t-jelipscomb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\t-jelipscomb\\CSharp-AIChatBot-DNCEng\\shared\\Shared\\Shared.csproj": {
+                "projectPath": "c:\\Users\\t-jelipscomb\\CSharp-AIChatBot-DNCEng\\shared\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Blazor.LocalStorage.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Blazor.SessionStorage.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Blazor.SpeechRecognition.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Blazor.SpeechSynthesis.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Markdig": {
+              "target": "Package",
+              "version": "[0.31.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.5, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "target": "Package",
+              "version": "[7.0.5, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.100-1.23062.2, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.Sdk.WebAssembly.Pack": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0-preview.5.23280.8, )",
+              "autoReferenced": true
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.2.2, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Azure.AI.FormRecognizer": "[4.0.0, )",
+            "Azure.AI.OpenAI": "[1.0.0-beta.5, )",
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": "[1.2.2, )",
+            "Azure.Identity": "[1.9.0-beta.3, )",
+            "Azure.Search.Documents": "[11.5.0-beta.2, )",
+            "Azure.Storage.Blobs": "[12.16.0, )",
+            "Blazor.LocalStorage.WebAssembly": "[7.0.3, )",
+            "Blazor.SessionStorage.WebAssembly": "[7.0.3, )",
+            "Blazor.SpeechRecognition.WebAssembly": "[7.0.3, )",
+            "Blazor.SpeechSynthesis.WebAssembly": "[7.0.3, )",
+            "bunit": "[1.18.4, )",
+            "coverlet.collector": "[3.2.0, )",
+            "FluentAssertions": "[5.10.3, )",
+            "Markdig": "[0.31.0, )",
+            "Microsoft.AspNetCore.Components.WebAssembly": "[7.0.5, )",
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": "[7.0.5, )",
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": "[7.0.5, )",
+            "Microsoft.CodeCoverage": "[17.6.2, )",
+            "Microsoft.Extensions.Caching.StackExchangeRedis": "[7.0.5, )",
+            "Microsoft.Extensions.Http": "[7.0.0, )",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "[7.0.0, )",
+            "Microsoft.ML": "[2.0.1, )",
+            "Microsoft.SemanticKernel": "[0.13.277.1-preview, )",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "[1.18.1, )",
+            "Moq": "[4.8.3, )",
+            "MudBlazor": "[6.2.2, )",
+            "NUnit": "[3.13.3, )",
+            "NUnit3TestAdapter": "[3.16.1, )",
+            "Swashbuckle.AspNetCore": "[6.5.0, )",
+            "xunit": "[2.4.2, )",
+            "xunit.runner.visualstudio": "[2.4.5, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.5, 7.0.5]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.5, 7.0.5]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[7.0.7, 7.0.7]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.5, 7.0.5]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.5.23303.2\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "c:\\Users\\t-jelipscomb\\CSharp-AIChatBot-DNCEng\\shared\\Shared\\Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\t-jelipscomb\\CSharp-AIChatBot-DNCEng\\shared\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "c:\\Users\\t-jelipscomb\\CSharp-AIChatBot-DNCEng\\shared\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\t-jelipscomb\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\t-jelipscomb\\CSharp-AIChatBot-DNCEng\\shared\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "CentralPackageTransitivePinningEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\t-jelipscomb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "centralPackageVersions": {
+            "Azure.AI.FormRecognizer": "[4.0.0, )",
+            "Azure.AI.OpenAI": "[1.0.0-beta.5, )",
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": "[1.2.2, )",
+            "Azure.Identity": "[1.9.0-beta.3, )",
+            "Azure.Search.Documents": "[11.5.0-beta.2, )",
+            "Azure.Storage.Blobs": "[12.16.0, )",
+            "Blazor.LocalStorage.WebAssembly": "[7.0.3, )",
+            "Blazor.SessionStorage.WebAssembly": "[7.0.3, )",
+            "Blazor.SpeechRecognition.WebAssembly": "[7.0.3, )",
+            "Blazor.SpeechSynthesis.WebAssembly": "[7.0.3, )",
+            "bunit": "[1.18.4, )",
+            "coverlet.collector": "[3.2.0, )",
+            "FluentAssertions": "[5.10.3, )",
+            "Markdig": "[0.31.0, )",
+            "Microsoft.AspNetCore.Components.WebAssembly": "[7.0.5, )",
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": "[7.0.5, )",
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": "[7.0.5, )",
+            "Microsoft.CodeCoverage": "[17.6.2, )",
+            "Microsoft.Extensions.Caching.StackExchangeRedis": "[7.0.5, )",
+            "Microsoft.Extensions.Http": "[7.0.0, )",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "[7.0.0, )",
+            "Microsoft.ML": "[2.0.1, )",
+            "Microsoft.SemanticKernel": "[0.13.277.1-preview, )",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "[1.18.1, )",
+            "Moq": "[4.8.3, )",
+            "MudBlazor": "[6.2.2, )",
+            "NUnit": "[3.13.3, )",
+            "NUnit3TestAdapter": "[3.16.1, )",
+            "Swashbuckle.AspNetCore": "[6.5.0, )",
+            "xunit": "[2.4.2, )",
+            "xunit.runner.visualstudio": "[2.4.5, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.5, 7.0.5]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.5, 7.0.5]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.5, 7.0.5]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.5.23303.2\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

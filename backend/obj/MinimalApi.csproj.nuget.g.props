@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\t-jelipscomb\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.7.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\t-jelipscomb\.nuget\packages\" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)microsoft.semantickernel.connectors.ai.openai\0.13.277.1-preview\contentFiles\any\netstandard2.0\Tokenizers\Settings\encoder.json" Condition="Exists('$(NuGetPackageRoot)microsoft.semantickernel.connectors.ai.openai\0.13.277.1-preview\contentFiles\any\netstandard2.0\Tokenizers\Settings\encoder.json')">
+      <NuGetPackageId>Microsoft.SemanticKernel.Connectors.AI.OpenAI</NuGetPackageId>
+      <NuGetPackageVersion>0.13.277.1-preview</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tokenizers\Settings\encoder.json</TargetPath>
+      <DestinationSubDirectory>Tokenizers\Settings\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tokenizers\Settings\encoder.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)microsoft.semantickernel.connectors.ai.openai\0.13.277.1-preview\contentFiles\any\netstandard2.0\Tokenizers\Settings\vocab.bpe" Condition="Exists('$(NuGetPackageRoot)microsoft.semantickernel.connectors.ai.openai\0.13.277.1-preview\contentFiles\any\netstandard2.0\Tokenizers\Settings\vocab.bpe')">
+      <NuGetPackageId>Microsoft.SemanticKernel.Connectors.AI.OpenAI</NuGetPackageId>
+      <NuGetPackageVersion>0.13.277.1-preview</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tokenizers\Settings\vocab.bpe</TargetPath>
+      <DestinationSubDirectory>Tokenizers\Settings\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tokenizers\Settings\vocab.bpe</Link>
+    </Content>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.props')" />
+    <Import Project="$(NuGetPackageRoot)swashbuckle.aspnetcore\6.5.0\build\Swashbuckle.AspNetCore.props" Condition="Exists('$(NuGetPackageRoot)swashbuckle.aspnetcore\6.5.0\build\Swashbuckle.AspNetCore.props')" />
+    <Import Project="$(NuGetPackageRoot)mudblazor\6.2.2\buildTransitive\MudBlazor.props" Condition="Exists('$(NuGetPackageRoot)mudblazor\6.2.2\buildTransitive\MudBlazor.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.visualstudio.azure.containers.tools.targets\1.18.1\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.visualstudio.azure.containers.tools.targets\1.18.1\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.ml\2.0.1\build\netstandard2.0\Microsoft.ML.props" Condition="Exists('$(NuGetPackageRoot)microsoft.ml\2.0.1\build\netstandard2.0\Microsoft.ML.props')" />
+    <Import Project="$(NuGetPackageRoot)blazor.speechsynthesis.webassembly\7.0.3\buildTransitive\Blazor.SpeechSynthesis.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)blazor.speechsynthesis.webassembly\7.0.3\buildTransitive\Blazor.SpeechSynthesis.WebAssembly.props')" />
+    <Import Project="$(NuGetPackageRoot)blazor.speechrecognition.webassembly\7.0.3\buildTransitive\Blazor.SpeechRecognition.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)blazor.speechrecognition.webassembly\7.0.3\buildTransitive\Blazor.SpeechRecognition.WebAssembly.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\t-jelipscomb\.nuget\packages\microsoft.extensions.apidescription.server\6.0.5</PkgMicrosoft_Extensions_ApiDescription_Server>
+    <PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets Condition=" '$(PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets)' == '' ">C:\Users\t-jelipscomb\.nuget\packages\microsoft.visualstudio.azure.containers.tools.targets\1.18.1</PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets>
+    <PkgMicrosoft_AspNetCore_Components_WebAssembly_Server Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_Server)' == '' ">C:\Users\t-jelipscomb\.nuget\packages\microsoft.aspnetcore.components.webassembly.server\7.0.5</PkgMicrosoft_AspNetCore_Components_WebAssembly_Server>
+    <PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer)' == '' ">C:\Users\t-jelipscomb\.nuget\packages\microsoft.aspnetcore.components.webassembly.devserver\7.0.5</PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer>
+  </PropertyGroup>
+</Project>
